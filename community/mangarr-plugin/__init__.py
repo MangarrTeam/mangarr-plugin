@@ -1,4 +1,4 @@
-from plugins.base import MangaPluginBase
+from plugins.base import MangaPluginBase, Formats, AgeRating, Status, NO_THUMBNAIL_URL
 
 
 class TemplatePlugin(MangaPluginBase):
