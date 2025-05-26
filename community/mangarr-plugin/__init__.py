@@ -9,10 +9,7 @@ class TemplatePlugin(MangaPluginBase):
 
     def get_manga(self, arguments:dict) -> dict:
         return {}
-    
-    def get_chapter(self, arguments:dict) -> dict:
-        return {}
-    
+        
     def get_chapters(self, arguments:dict) -> list[dict]:
         return []
     
