@@ -4,8 +4,8 @@ from plugins.base import MangaPluginBase, Formats, AgeRating, Status, NO_THUMBNA
 class TemplatePlugin(MangaPluginBase):
     languages = []
 
-    def search_manga(self, query:str, language:str=None) -> dict:
-        return {}
+    def search_manga(self, query:str, language:str=None) -> list[dict]:
+        return []
 
     def get_manga(self, arguments:dict) -> dict:
         return {}
