@@ -11,3 +11,4 @@ Mangarr expects some keys in the its dictionaries at minimum so use the ***METHO
 - [requests](https://pypi.org/project/requests/)
 - [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
 - [lxml](https://pypi.org/project/lxml/)
+- [selenium](https://pypi.org/project/selenium/) (predefined in base class as *driver* with method **close_driver** that will close all driver tabs except one to avoid huge HW usage so use after being done with driver)
